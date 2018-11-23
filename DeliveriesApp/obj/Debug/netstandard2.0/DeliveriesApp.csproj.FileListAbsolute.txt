@@ -1,0 +1,9 @@
+C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\bin\Debug\netstandard2.0\DeliveriesApp.deps.json
+C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\bin\Debug\netstandard2.0\DeliveriesApp.dll
+C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\bin\Debug\netstandard2.0\DeliveriesApp.pdb
+C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.csproj.CoreCompileInputs.cache
+C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.AssemblyInfoInputs.cache
+C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.AssemblyInfo.cs
+C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.dll
+C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.pdb
+C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.csprojAssemblyReference.cache
