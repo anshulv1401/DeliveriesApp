@@ -486,11 +486,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.csproj",
+      "projectUniqueName": "D:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.csproj",
       "projectName": "DeliveriesApp",
-      "projectPath": "C:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.csproj",
+      "projectPath": "D:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.csproj",
       "packagesPath": "C:\\Users\\Anshul.Vanawat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\obj\\",
+      "outputPath": "D:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

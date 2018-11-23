@@ -807,11 +807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp.Droid\\DeliveriesApp.Droid.csproj",
+      "projectUniqueName": "D:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.Droid\\DeliveriesApp.Droid.csproj",
       "projectName": "DeliveriesApp.Droid",
-      "projectPath": "C:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp.Droid\\DeliveriesApp.Droid.csproj",
+      "projectPath": "D:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.Droid\\DeliveriesApp.Droid.csproj",
       "packagesPath": "C:\\Users\\Anshul.Vanawat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp.Droid\\obj\\",
+      "outputPath": "D:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.Droid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -828,8 +828,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.csproj": {
-              "projectPath": "C:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.csproj"
+            "D:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.csproj": {
+              "projectPath": "D:\\Users\\Anshul.Vanawat\\source\\repos\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp\\DeliveriesApp.csproj"
             }
           }
         }
