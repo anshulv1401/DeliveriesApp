@@ -1,4 +1,9 @@
 DeliveriesApp
+Microsoft.WindowsAzure.Mobile
+Microsoft.WindowsAzure.Mobile.Ext
+Newtonsoft.Json
+System.Net.Http.Extensions
+System.Net.Http.Primitives
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -16,8 +21,7 @@ Xamarin.Android.Support.v7.AppCompat
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
 netstandard
-Microsoft.WindowsAzure.Mobile
-Microsoft.WindowsAzure.Mobile.Ext
-Newtonsoft.Json
-System.Net.Http.Extensions
-System.Net.Http.Primitives
+System.Resources.ResourceManager
+System.Diagnostics.Tools
+System.Reflection.Extensions
+System.Linq.Queryable

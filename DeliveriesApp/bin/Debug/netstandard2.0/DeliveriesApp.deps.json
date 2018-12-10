@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "cfe1dc2a80602aef150a12815387068463a61a0d"
+    "signature": "ef3dfbb4d0c0223214f09c1189327fd3d50f6626"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,16 +9,54 @@
     ".NETStandard,Version=v2.0/": {
       "DeliveriesApp/1.0.0": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3"
+          "Microsoft.Azure.Mobile.Client": "3.1.0",
+          "Microsoft.Bcl": "1.1.10",
+          "Microsoft.Bcl.Build": "1.0.21",
+          "Microsoft.Net.Http": "2.2.29",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "DeliveriesApp.dll": {}
+        }
+      },
+      "Microsoft.Azure.Mobile.Client/3.1.0": {
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.10",
+          "Microsoft.Bcl.Build": "1.0.21",
+          "Microsoft.Net.Http": "2.2.29",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
+          "lib/net45/Microsoft.WindowsAzure.Mobile.dll": {}
+        }
+      },
+      "Microsoft.Bcl/1.1.10": {
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.21"
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.21": {},
+      "Microsoft.Net.Http/2.2.29": {
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.10",
+          "Microsoft.Bcl.Build": "1.0.21"
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Extensions.dll": {},
+          "lib/net45/System.Net.Http.Primitives.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       }
     }
@@ -28,6 +66,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.Azure.Mobile.Client/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L/RF/9A/mMFifQsTBRmSPV3UpvG11LR+0vsm7KKkOW7pLeRmsAWFtfKRUKoEfgdi2XoOFSLkXk88w8jVXV5uJA==",
+      "path": "microsoft.azure.mobile.client/3.1.0",
+      "hashPath": "microsoft.azure.mobile.client.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl/1.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+tTqoh/M1pyL8El3qLy30EcwnAtyvFoDZJtdG9Cbg/WdFbh4N8kyrq198XHuEL7lnJbeD0DRO8jcX5IIOh05cQ==",
+      "path": "microsoft.bcl/1.1.10",
+      "hashPath": "microsoft.bcl.1.1.10.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Build/1.0.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgHu4mIt0+NVGyI12Bj4hLPypNK55UOH+ologj2LqDCjxq3EbIxe/uAtHjY+fEwbE1dtsAHG8SXHf+V/EYbKTg==",
+      "path": "microsoft.bcl.build/1.0.21",
+      "hashPath": "microsoft.bcl.build.1.0.21.nupkg.sha512"
+    },
+    "Microsoft.Net.Http/2.2.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fc4CPEewJ30Xgal+fSq1lYIBt582A7eKlAL7O4HXiYAiTp2VTnA4osSvk7T2n8aS4xTCPVJusQk3yKLT0XSpkg==",
+      "path": "microsoft.net.http/2.2.29",
+      "hashPath": "microsoft.net.http.2.2.29.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -42,6 +108,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     }
   }
 }

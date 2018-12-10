@@ -7,3 +7,14 @@ C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\obj\Debug\netst
 C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.dll
 C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.pdb
 C:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.csprojAssemblyReference.cache
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\bin\Debug\netstandard2.0\DeliveriesApp.deps.json
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\bin\Debug\netstandard2.0\DeliveriesApp.dll
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\bin\Debug\netstandard2.0\DeliveriesApp.pdb
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.csproj.CoreCompileInputs.cache
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.AssemblyInfoInputs.cache
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.AssemblyInfo.cs
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.dll
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.pdb
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.csprojAssemblyReference.cache
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\bin\Debug\netstandard2.0\DeliveriesApp.dll.config
+D:\Users\Anshul.Vanawat\source\repos\DeliveriesApp\DeliveriesApp\DeliveriesApp\obj\Debug\netstandard2.0\DeliveriesApp.csproj.App.config

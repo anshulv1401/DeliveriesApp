@@ -33,7 +33,7 @@ namespace DeliveriesApp.Droid
             emailEditText.Text = email;
         }
 
-        private void RegisterButton_Click(object sender, EventArgs e)
+        private async void RegisterButton_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(passwordEditText.Text))
             {
@@ -44,9 +44,12 @@ namespace DeliveriesApp.Droid
                         Email = emailEditText.Text,
                         Password = passwordEditText.Text
                     };
-                    LoginActivity.MobileService.GetTable<User>
+                    //await LoginActivity.MobileService.GetTable<User>().InsertAsync(user);
+                    Toast.MakeText(this, "Success", ToastLength.Short).Show();
+                    return;
                 }
                 Toast.MakeText(this, "Password don't match", ToastLength.Short).Show();
+                return;
             }
             Toast.MakeText(this, "Password can not be empty", ToastLength.Short).Show();
         }

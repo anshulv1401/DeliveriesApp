@@ -19,6 +19,7 @@
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.v7.appcompat\27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.v7.appcompat\27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.transition\27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.transition\27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.design\27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Design.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.design\27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Design.targets')" />
+    <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.bcl.build\1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.bcl.build\1.0.21\build\Microsoft.Bcl.Build.targets')" />
   </ImportGroup>
 </Project>
