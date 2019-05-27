@@ -44,7 +44,7 @@ namespace DeliveriesApp.Droid
                         Email = emailEditText.Text,
                         Password = passwordEditText.Text
                     };
-                    //await LoginActivity.MobileService.GetTable<User>().InsertAsync(user);
+                    await MainActivity.MobileService.GetTable<User>().InsertAsync(user);
                     Toast.MakeText(this, "Success", ToastLength.Short).Show();
                     return;
                 }
