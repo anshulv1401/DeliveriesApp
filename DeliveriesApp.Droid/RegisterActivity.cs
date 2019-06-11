@@ -35,23 +35,12 @@ namespace DeliveriesApp.Droid
 
         private async void RegisterButton_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(passwordEditText.Text))
-            {
-                if (passwordEditText.Text == confirmPasswordEditText.Text)
-                {
-                    var user = new User()
-                    {
-                        Email = emailEditText.Text,
-                        Password = passwordEditText.Text
-                    };
-                    await MainActivity.MobileService.GetTable<User>().InsertAsync(user);
-                    Toast.MakeText(this, "Success", ToastLength.Short).Show();
-                    return;
-                }
-                Toast.MakeText(this, "Password don't match", ToastLength.Short).Show();
-                return;
-            }
-            Toast.MakeText(this, "Password can not be empty", ToastLength.Short).Show();
+            var result = await User.Register(emailEditText.Text, passwordEditText.Text, confirmPasswordEditText.Text);
+
+            if (result)
+                Toast.MakeText(this, "Success", ToastLength.Short).Show();
+            else
+                Toast.MakeText(this, "Try again", ToastLength.Short).Show();
         }
     }
 }

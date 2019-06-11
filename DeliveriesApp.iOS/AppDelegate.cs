@@ -10,10 +10,7 @@ namespace DeliveriesApp.iOS
     public class AppDelegate : UIApplicationDelegate
     {
         // class-level declarations
-
-        public static MobileServiceClient mobileService = new MobileServiceClient("Uri for Azure server");
-
-
+        
         public override UIWindow Window
         {
             get;

@@ -5,14 +5,13 @@ using Android.Runtime;
 using Android.Widget;
 using Android.Content;
 using Microsoft.WindowsAzure.MobileServices;
+using System.Linq;
 
 namespace DeliveriesApp.Droid
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        public static MobileServiceClient MobileService = new MobileServiceClient("Uri for Azure server");
-
         EditText emailEditText, passwordEditText;
         Button signinButton, registerButton;
 
@@ -39,9 +38,17 @@ namespace DeliveriesApp.Droid
             StartActivity(intent);
         }
 
-        private void SigninButton_Click(object sender, System.EventArgs e)
+        private async void SigninButton_Click(object sender, System.EventArgs e)
         {
+            var email = emailEditText.Text;
+            var password = passwordEditText.Text;
 
+            var result = await User.Login(email, password);
+
+            if (result)
+                Toast.MakeText(this, "Login Successfull", ToastLength.Long).Show();
+            else
+                Toast.MakeText(this, "Email and password cannot be empty", ToastLength.Long).Show();
         }
     }
 }
